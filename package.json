@@ -1,0 +1,13 @@
+{
+  "name": "costworth",
+  "version": "1.0.0",
+  "description": "Cost-per-outcome tracker for LLM usage: not cost per token, but cost per thing you actually got done. Includes month-end spend forecasting via linear regression. Zero dependencies.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/analytics.test.js test/api.test.js"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["llm-cost", "analytics", "forecasting", "zero-dependency"],
+  "license": "MIT"
+}

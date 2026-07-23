@@ -1,0 +1,4 @@
+data.json
+*.tmp
+node_modules/
+test/test-data.json
